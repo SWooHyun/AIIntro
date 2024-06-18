@@ -167,7 +167,7 @@ class Trainer:
             print("train acc:" + str(train_acc) + ", test acc:" + str(test_acc))
 
 
-
+#load_mnist가 Fashion-MNIST에 맞게 수정된 코드.
  from dataset.mnist import load_mnist
 (x_train, t_train), (x_test, t_test) = load_mnist(flatten=False)
 
